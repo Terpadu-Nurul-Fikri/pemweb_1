@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hasil Pemesanan Barang</title>
+  </head>
+  <body style="font-family: 'Times New Roman', Times, serif; max-width: 750px; display: flex; flex-direction: column; justify-content: center; align-items: center; margin: auto">
+    <header style="width: 100%; margin-bottom: 30px">
+      <nav>
+        <ul style="display: flex; gap: 50px; list-style: none; padding: 15px; border: 1px solid #ccc; justify-content: center">
+          <li>Home</li>
+          <li>Generate Link</li>
+          <li>Transaction History</li>
+          <li>Policy</li>
+          <li>Logout</li>
+        </ul>
+      </nav>
+    </header>
+    <div style="display: flex; justify-content: space-between; gap: 32px; width: 100%">
+      <div style="display: flex; flex-direction: column; gap: 12px; align-items: center">
+        <img src="https://placehold.co/250" alt="Placeholder" />
+        <button style="width: fit-content; padding: 8px 16px">Upload Gambar</button>
+      </div>
+      <form action="./coba.html" style="display: flex; flex-direction: column; gap: 16px; width: 100%">
+        <fieldset>
+          <div style="width: 100%">
+            <label for="title">Title Here: </label>
+            <span style="margin-left: 50px">MackBook Air M3</span>
+          </div>
+          <br />
+          <div style="width: 100%; display: flex; gap: 43px">
+            <div>
+              <label for="description">Description: </label>
+            </div>
+            <div style="display: flex; flex-direction: column">
+              <span>Year: 2024</span>
+              <br />
+              <span>Model: </span>
+              <br />
+              <span>Condition: Second </span>
+            </div>
+          </div>
+          <br />
+          <div style="width: 100%">
+            <label for="total">Total Amount: </label>
+            <span style="margin-left: 26px">$800</span>
+          </div>
+          <br />
+          <div style="width: 100%">
+            <label for="Pay">Pay to: </label>
+            <span style="margin-left: 72px">123-456-789-0</span>
+          </div>
+          <br />
+          <div>
+            <label for="bank">Payment Type: </label>
+            <select id="bank" style="width: 100%; padding: 5px">
+              <option>Visa Debit</option>
+              <option>Cash on Delivery</option>
+              <option>Pay Later</option>
+            </select>
+          </div>
+          <div>
+            <br />
+            <label for="account-holder">Account Holder: </label>
+            <input type="text" id="account-holder" placeholder="Name Here" disabled style="width: 100%; padding: 5px" />
+          </div>
+          <br />
+          <div>
+            <label for="account-no">Account No: </label>
+            <input type="text" id="account-no" placeholder="123-456-789-0" disabled style="width: 100%; padding: 5px" />
+            <p style="font-size: 14px; margin-top: 5px">* if transaction is for 3 person, choose 3 from the drop-down list</p>
+          </div>
+          <div>
+            <input id="send-phone" name="send-phone" type="checkbox" checked />
+            <label for="send-phone">Send to Mobile Phone</label><br />
+          </div>
+          <div>
+            <input id="send-email" name="send-email" type="checkbox" checked />
+            <label for="send-email">Send to Email</label>
+          </div>
+          <br />
+          <div>
+            <label for="send-phone">Send To Mobile Phone: </label>
+            <input type="text" id="send-phone" placeholder="123-456-789-0" disabled style="width: 100%; padding: 5px" />
+          </div>
+          <br />
+          <div>
+            <label for="send-email">Send To Mobile Phone: </label>
+            <input type="text" id="send-email" placeholder="kada@hotmail.com" disabled style="width: 100%; padding: 5px" />
+          </div>
+          <br />
+          <div style="text-align: center">
+            <button type="submit" style="color: white; background-color: green; padding: 5px 20px; width: fit-content; cursor: pointer">Pay using QuidLink</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+  <br /><br />
+  <footer style="margin-bottom: 100px">
+    Referensi:
+    <a href="https://stt-nurul-fikri.github.io/pweb1-form-pertemuan3/pemesanan-barang/pay.html?" target="_blank">Github</a>
+  </footer>
+</html>

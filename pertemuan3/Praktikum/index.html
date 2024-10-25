@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pemesanan Pizza</title>
+  </head>
+  <body style="background-color: antiquewhite">
+    <fieldset>
+      <legend>Form Pesan Pizza</legend>
+
+      <h1>Selamat Datang Di Domino's Pizza</h1>
+      <p>Silahkan isi pesanan anda disini</p>
+      <form action="pesanan_pizza.html">
+        <table>
+          <thead>
+            <tr>
+              <td>Informasi Anda</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><label for="nama">Nama :</label></td>
+              <td><input type="text" id="nama" name="nama" required /></td>
+            </tr>
+            <tr>
+              <td><label for="" alamat>Alamat :</label></td>
+              <td><input type="text" id="alamat" name="alamat" required /></td>
+            </tr>
+            <tr>
+              <td><label for="notelp">No Telepon :</label></td>
+              <td><input type="tel" id="notelp" name="notelp" required /></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email :</label></td>
+              <td><input type="email" id="email" name="email" required /></td>
+            </tr>
+            <tr>
+              <td><label for="email">Notes Pemesanan :</label></td>
+              <td><textarea name="note" id="note" required placeholder="Tidak Lebih dari 400 Kata"></textarea></td>
+            </tr>
+          </tbody>
+        </table>
+        <h4>Pilih Salah Satu</h4>
+        <label for="crust">Crust :</label><br />
+
+        <input type="radio" id="crust" name="crust" value="cs" />
+        <label for="cs">Classic White</label><br />
+        <input type="radio" id="crust" name="crust" value="mg" />
+        <label for="cs">Multigrain</label><br />
+        <input type="radio" id="crust" name="crust" value="cf" />
+        <label for="cs">Cheese Stuffed</label><br />
+        <input type="radio" id="crust" name="crust" value="gf" />
+        <label for="cs">Gluten Free</label><br /><br />
+
+        <label for="topping">Topping (Pilih lebih dari 1)</label><br />
+
+        <input type="checkbox" id="topping" name="topping" value="rs" /> Red Sauce <br />
+        <input type="checkbox" id="topping" name="topping" value="mz" /> Mozarella <br />
+        <input type="checkbox" id="topping" name="topping" value="bf" /> Beef <br />
+        <input type="checkbox" id="topping" name="topping" value="pp" /> Paperoni <br />
+
+        <h4>Number</h4>
+        <label for="">Pesan Pizza</label>
+        <input type="number" min="1" max="10" /><br /><br />
+
+        <button type="submit" value="pesan">Pesan Sekarang</button>
+        <button type="reset" value="reset">Reset</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
