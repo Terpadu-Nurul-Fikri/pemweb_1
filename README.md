@@ -13,3 +13,8 @@
 
 - **[Praktikum](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan4/Praktikum/home.html)**
 - **[Tugas](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan4/tugas/index.html)**
+
+# Pertemuan 5
+
+- **[PraktikumCss](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan5/praktikumcss/alpukat.html)**
+- **[Tugas](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan5/tugas/burung.html)**
