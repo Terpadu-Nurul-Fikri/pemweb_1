@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffecc8;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+blockquote {
+  background-color: #555;
+  font-size: 18px;
+  font-style: italic;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-top: 2px dotted red;
+  border-left: 2px dotted red;
+}
+
+#soekarno {
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.navbar ul li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.navbar ul li a:hover {
+  background: #5555;
+}
+
+.gambar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.isi {
+  padding: 20px;
+  background: #fff7d1;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.isi p {
+  margin: 10px 0;
+}
+.capitalize-first-letter::first-letter {
+  font-size: 2em;
+  font-weight: bold;
+  color: blue;
+}
+
+.isi .jawa {
+  font-weight: bold;
+  color: #333;
+}
+
+#profil,
+#beternak {
+  padding: 20px;
+  background: #fff7d1;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#profil ul,
+#beternak ol {
+  margin: 20px 0;
+}
+
+#profil ul li,
+#beternak ol li {
+  margin-bottom: 10px;
+}
+
+.koleksi {
+  text-align: center;
+  padding: 20px;
+  background: #fff7d1;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.koleksi img {
+  width: 100%;
+  max-width: 200px;
+  margin: 10px;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+}
+
+.promo {
+  text-align: center;
+  padding: 20px;
+  background: #fff7d1;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.promo h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.promo h3 {
+  font-size: 20px;
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+.promo h3 del {
+  color: #aaa;
+}
+
+.promo h3 strong {
+  color: #e74c3c;
+}
+
+.promo h4 {
+  margin-top: 20px;
+}
+
+.promo ol {
+  list-style: none;
+  padding: 0;
+}
+
+.promo ol li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.promo ol li a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+}
+
+.promo ol li a:hover {
+  text-decoration: underline;
+}
