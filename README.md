@@ -16,5 +16,5 @@
 
 # Pertemuan 5
 
-- **[PraktikumCss](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan5/praktikum/index.html)**
+- **[PraktikumCss](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan5/Praktikum_css/index.html)**
 - **[Tugas](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan5/tugas/index.html)**
