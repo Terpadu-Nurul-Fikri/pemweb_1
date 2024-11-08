@@ -1,0 +1,47 @@
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.gap {
+  gap: 24px;
+}
+.square1 {
+  width: 126px;
+  height: 150px;
+}
+.square {
+  width: 125px;
+  height: 100px;
+}
+
+.fill {
+  flex: 1;
+}
+
+.full {
+  width: 100%;
+  height: 100px;
+}
+
+.green {
+  background-color: green;
+  border: 2px solid black;
+}
+
+.yellow {
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+.orange {
+  background-color: orange;
+  border: 2px solid black;
+}
+
+.blue {
+  background-color: skyblue;
+  border: 2px solid black;
+}
