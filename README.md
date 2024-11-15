@@ -25,3 +25,9 @@
 - **[Praktikum 2](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan6/praktikum/cssbox2.html)**
 - **[Tugas 1](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan6/tugas_1/tugas.html)**
 - **[Tugas 2](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan6/tugas_2/tugas.html)**
+
+# Pertemuan 7
+
+- **[Praktikum 1](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan7/praktikum/index.html)**
+- **[Praktikum 2](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan7/praktikum2/index.html)**
+- **[Tugas 1](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan7/tugas/index.html)**
