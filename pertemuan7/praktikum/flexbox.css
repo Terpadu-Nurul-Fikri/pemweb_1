@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: aqua;
+}
+section {
+  margin: 30px;
+}
+a {
+  text-decoration: none;
+  padding: 10px 15px;
+}
+a:hover {
+  color: antiquewhite;
+  background-color: black;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0.1em;
+  margin: 0;
+}
+header li {
+  margin: 01em;
+}
+header li.logo {
+  margin-right: auto;
+}
+header img.logo {
+  width: 30%;
+}
