@@ -52,7 +52,7 @@ body {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* Menempatkan konten di bagian bawah */
+  justify-content: flex-end;
   align-items: center;
   position: relative;
 }
