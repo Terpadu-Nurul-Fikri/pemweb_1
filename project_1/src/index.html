@@ -642,7 +642,7 @@
     <!-- Bagian Dokumentasi end -->
 
     <!-- Bagian Alumni -->
-    <div class="w-full py-20 bg-white">
+    <div id="alumni" class="w-full py-20 bg-white">
       <div class="container mx-auto max-w-screen-xl px-2">
         <!-- Header -->
         <div class="mx-auto max-w-xl px-4 text-center mb-16 space-y-4">
@@ -689,7 +689,7 @@
     <!-- Bagian Alumni end -->
 
     <!-- Bagian Footer -->
-    <footer class="w-full py-12 bg-blue-600 text-white">
+    <footer id="footer" class="w-full py-12 bg-blue-600 text-white">
       <div class="container mx-auto max-w-screen-xl px-4">
         <div class="md:flex flex-wrap justify-between items-start">
           <!-- Logo dan Deskripsi -->
@@ -775,6 +775,14 @@
       });
       ScrollReveal().reveal('#berita', {
         delay: 500,
+      });
+      ScrollReveal().reveal('#alumni', {
+        delay: 500,
+        origin: 'right',
+      });
+      ScrollReveal().reveal('#footer', {
+        delay: 500,
+        origin: 'left',
       });
     </script>
   </body>
