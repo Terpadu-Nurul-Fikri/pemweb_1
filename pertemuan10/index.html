@@ -6,18 +6,24 @@
     <title>Belajar JS</title>
     <script>
       function konversi() {
-        let;
+        // Ambil elemen select
+        let selectElement = document.getElementById('warna');
+        // Ambil nilai yang dipilih
+        let selectedColor = selectElement.value;
+        // Ubah warna latar belakang
+        document.body.style.backgroundColor = selectedColor;
       }
     </script>
   </head>
   <body>
     <form action="">
       Pilih Warna:
-      <select>
-        <option value="">Hijau</option>
-        <option value="">Merah</option>
-        <option value="">Pink</option>
-        <option value="">Biru</option>
+      <select id="warna" onchange="konversi()">
+        <option value="">Pilih warna</option>
+        <option value="green">Hijau</option>
+        <option value="red">Merah</option>
+        <option value="pink">Pink</option>
+        <option value="blue">Biru</option>
       </select>
     </form>
   </body>
