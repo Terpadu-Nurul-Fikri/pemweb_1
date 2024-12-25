@@ -32,10 +32,6 @@
 - **[Praktikum 2](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan7/praktikum2/index.html)**
 - **[Tugas 1](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan7/tugas/index.html)**
 
-# Pertemuan 8 UTS
-
-- **[Praktikum 1](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan7/praktikum/index.html)**
-
 # Pertemuan 9
 
 - **[Praktikum 1](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan9/index.html)**
