@@ -55,6 +55,10 @@
 - **[Praktikum 1](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan12/index.html)**
 - **[Praktikum 2](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan12/form.html)**
 
+# Praktikum RWD Bootstrap
+
+- **[Praktikum](https://terpadu-nurul-fikri.github.io/pemweb_1/Hotel_RWD/index.html)**
+
 # Pertemuan 13
 
 - **[Praktikum 1](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan13/adminLTE.html)**
