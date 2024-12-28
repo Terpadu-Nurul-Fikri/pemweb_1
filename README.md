@@ -63,7 +63,3 @@
 
 - **[Praktikum 1](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan13/adminLTE.html)**
 - **[Praktikum 2](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan13/index.html)**
-
-# Pertemuan 14
-
-- **[Praktikum 1](https://terpadu-nurul-fikri.github.io/pemweb_1/pertemuan14/index.html)**
